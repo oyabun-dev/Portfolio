@@ -18,7 +18,19 @@ Persevering, autonomous and dynamic, I am an engineering student at the École S
 ### Description 
 Wordle Masters is a clone of the popular word guessing game called Wordle. The game challenges players to guess a five-letter word by suggesting words that are then checked for matching letters. The objective of the game is to guess the word with as few attempts as possible.
 ### Technologies Used: 
+JavaScript, HTML, CSS.   
+
+## Calculator Masters
+### Description 
+This is a simple calculator project built using JavaScript, HTML, and CSS. The calculator can perform basic mathematical operations such as addition, subtraction, multiplication, and division.
+### Technologies Used: 
 JavaScript, HTML, CSS.
+
+## Driver License Test 
+### Description 
+This is a simple web application that provides users with a driver license test. It is designed to help learners prepare for the driver license exam and to test their knowledge of road rules and driving regulations.
+### Technologies Used: 
+JavaScript, PHP, HTML, CSS.
 
 # Skills
 <u>Programming Languages</u>: Java, JavaScript, C.   

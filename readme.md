@@ -5,7 +5,7 @@ My portfolio site is a showcase of my skills, experience, and projects as a juni
 My target audience is potential employers, recruiters, and fellow developers who are interested in my work and skills. By showcasing my projects and skills on my portfolio site, I hope to demonstrate my proficiency and commitment to software development and attract job opportunities that align with my career goals.
 
 # Table of Contents
-[About Me](index.html#about).      
+[About Me](about.html).      
 [Projects](index.html#projects).     
 [Skills](index.html#skills).    
 [Contact Me](index.html#contact).     

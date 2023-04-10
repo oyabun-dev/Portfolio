@@ -62,11 +62,22 @@ img {
 
 #projects {
     background-color: var(--dkblue);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 4rem;
+    font-size: 110%;
+}
+
+#about {
+    background-color: var(--dkblue);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 4rem;
 }
 
 /* intro styles */
 #intro {
-    padding: 4rem 1rem 10rem 1rem;
+    padding: 4rem 4rem 10rem 4rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -97,6 +108,7 @@ img {
 
 #contact {
     background-color: var(--plum);
+    font-size: 110";
 }
 
 #contact .container {
@@ -127,8 +139,8 @@ img {
 /* navigation */
 nav {
     font-family: var(--mono);
-    font-size: 80%;
-    padding: 1rem;
+    font-size: 90%;
+    padding: 3rem 4rem;
 }
 
 nav h1 a {
@@ -193,8 +205,8 @@ nav h1 [class*="fa-"]:hover {
 
 footer {
     font-family: var(--sans);
-    font-size: 80%;
-    padding: 1rem;
+    font-size: 110%;
+    padding: 5rem 2rem;
 }
 
 footer h2 {
@@ -277,6 +289,49 @@ footer .rights {
     padding: 1rem;
 }
 
+/* about section */
+#about .container {
+    padding: 4rem 1rem;
+}
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: calc(2.5rem * 1.5);
+}
+#about h3 {
+    color: var(--aqua)
+}
+#about h4 {
+    font-size: 1rem;
+    font-family: var(--mono);
+    margin: 0;
+}
+#about .blackbox {
+    background-color: var(--black);
+    padding: 1rem;
+    border-radius: 10px;
+    color: var(--white);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#about ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+#about img {
+    margin: 2rem 0 4rem 0;
+    border-left: 1px solid var(--aqua);
+    border-top: 1px solid var(--aqua);
+    border-radius: 25px;
+    padding: 1rem;
+}
+
 @media (min-width: 850px) {
     nav {
         max-width: 1200px;
@@ -304,7 +359,7 @@ footer .rights {
         grid-column: 1/6;
         grid-row: 1/2;
     }
-    .text {
+    #projects .text {
         grid-column: 5/11;
         grid-row: 1/2;
         order: 2;
@@ -313,11 +368,26 @@ footer .rights {
     #projects ul {
         justify-content: flex-end;
     }
+
+    #about img {
+        grid-column: 1/6;
+        grid-row: 1/2;
+    }
+    #about .text {
+        grid-column: 5/11;
+        grid-row: 1/2;
+        order: 2;
+        text-align: right;
+    }
+    #about ul {
+        justify-content: flex-end;
+    }
+
     #projects .reverse img {
         grid-column: 6/11;
         grid-row: 1/2;
     }
-    .reverse .text {
+    #projects .reverse .text {
         grid-column: 1/7;
         grid-row: 1/2;
         order: 1;

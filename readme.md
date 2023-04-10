@@ -41,4 +41,4 @@ I would like to thank the following frameworks, libraries, and resources for the
 [Font Awesome](https://fontawesome.com/) - Icon library for web applications.   
 [Google Fonts](https://fonts.google.com/) - Free and open-source font library.   
 [GitHub Pages](https://pages.github.com/) - Hosting service for static websites.   
-Without these tools and resources, this project would not have been possible. I am grateful for the efforts of their creators and maintainers, and for their commitment to open-source software development.
+Without these tools and resources, this project would not have been possible. I am grateful for the efforts of their creators and maintainers, and for their commitment to open-source software development.  
